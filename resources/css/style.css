@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  font-family: Verdana;
+font-size: 14px;
+font-weight: bold;
+color: MediumAquamarine;
+align-items: center;
+  display: flex;
+  position: fixed;
+  z-index: 1;
+  height: 80px;
+  width: 100%;
+  border-bottom: solid 2px gray;
+}
+
+.logo {
+  display: flex;
+align-items: center;
+flex-grow: 1;
+padding-left: 30px;
+}
+
+.logo img {
+  margin-right: 10px;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  padding-right: 30px;
+}
+ .nav span {
+  padding: 0 20px;
+ }
+
+span {
+  display: inline-block;
+}
+
+span a {
+  color: black;
+}
