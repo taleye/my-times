@@ -1,9 +1,11 @@
 * {
   margin: 0;
   padding: 0;
-  font-family: Verdana;
+  font-family: Georgia;
+  /*  border: solid 1px black; */
 }
 
+/* Heading and nav content */
 header {
   background-color: white;
   font-family: Verdana;
@@ -48,33 +50,33 @@ span a {
   color: black;
 }
 
+/* Main content */
 main {
-  position: relative;
   display: flex;
-  width: 80%;
-  margin: 0 auto;
-  padding: 100px 0 60px 0;
+  padding-top: 100px;
+  width: 1232px;
+  margin: 0 auto 78px auto;
 }
 
-.col-1 {
+.large {
   display: flex;
   flex-direction: column;
-  width: 50%;
+  width: 630px;
   margin-right: 32px;
 }
 
-.col-2 {
+.medium {
   display: flex;
   flex-direction: column;
-  width: 30%;
+  width: 300px;
+  margin-right: 32px;
 }
 
-.col-3 {
+.small {
   display: flex;
   flex-direction: column;
-  width: 20%;
+  width: 240px;
 }
-
 
 footer {
   display: block;
@@ -91,38 +93,80 @@ small {
   display: block;
 }
 
-h1 {
-  position: absolute;
-  display: inline;
-  width: 40%;
-  padding: 100px 30px;
-  color: white;
-}
-
-h2 {
-  position: relative;
-  display: inline;
-  width: 20%;
-  color: white;
-  text-align: center;
-}
-
 p {
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
   padding: 20px 0;
 }
 
 .sub-col {
   display: flex;
   flex-direction: column;
-  margin-right: 32px;
+  width: 300px;
 }
 
-.sub-col img {
-  width: 100%;
+#main-title {
+  text-align: left;
+  font-size: 40px;
+  padding-left: 15px;
+}
+
+.img-main {
+  background-image: url("../images/img-story-main.png");
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.img-1 {
+  background-image: url("../images/img-story-2.png");
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.img-2 {
+  background-image: url("../images/img-story-3.png");
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.img-3 {
+  background-image: url("../images/img-story-1.png");
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.img-4 {
+  background-image: url("../images/img-news-bite.png");
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+main span {
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  margin: 0 auto;
+}
+
+.white-center {
+  color: white;
+  text-align: center;
 }
 
 .story {
   display: flex;
-  flex-direction: row;
-align-items: 
+  align-items: center;
+  justify-content: space-between;
 }
